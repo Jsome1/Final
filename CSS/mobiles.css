@@ -1,0 +1,199 @@
+@media (max-width: 320px) {
+  /* ================= HEADER ================= */
+  header {
+    padding-inline: 32px;
+  }
+
+  .header-buttons {
+    gap: 8px;
+  }
+
+  .header-btn {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
+
+  .header-btn img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 99.2px;
+    left: -150%;
+    background-color: #c46a2b;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px 56px 16px 16px;
+  }
+
+  .menu-link {
+    font-size: 14px;
+  }
+
+  /* ================= HOME – MOST POPULAR ================= */
+  .popular-section {
+    padding-inline: 16px;
+  }
+
+  .popular-title {
+    text-align: center;
+  }
+
+  .product-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .product-card {
+    display: none;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .product-card:first-child {
+    display: block;
+  }
+
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ================= CATALOG ================= */
+  .catalog-section {
+    padding-inline: 16px;
+  }
+
+  .guitar-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+  }
+
+  .guitar-card {
+    display: none;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .guitar-card:nth-child(-n + 4) {
+    display: block;
+  }
+
+  .guitar-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .filter-title,
+  .sort-title {
+    display: none;
+  }
+
+  /* ================= CONTACT US ================= */
+  main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 120px 16px 20px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+    width: 100%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .contact-form-section,
+  .contact-info-section {
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .form-inputs {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-button {
+    height: 48px;
+    font-size: 14px;
+  }
+  .contact-info {
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-link {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contact-map {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  /* ================= FOOTER ================= */
+  .site-footer {
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 16px;
+  }
+
+  .footer-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .footer-list,
+  .footer-contact {
+    gap: 4px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .footer-social {
+    justify-content: center;
+    gap: 12px;
+  }
+}
